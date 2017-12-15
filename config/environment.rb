@@ -6,10 +6,10 @@ Rails.application.initialize!
 
 ActionMailer::Base.smtp_settings = {
   :address => 'smtp.sendgrid.net',
-  :port => '25',
+  :port => '587',
   :authentication => :plain,
   :user_name => ENV['apikey'],
-  :password => ENV['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'],
+  :password => ENV['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'],
   :domain => 'heroku.com',
   :enable_starttls_auto => true
 }
